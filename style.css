@@ -1,0 +1,52 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    width: 360px;
+    height: 200px;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+@media only screen and (min-width: 600px){
+
+#wash,#home,#calm{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+#mask, #eat{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+img, p, h3{
+    margin: 20px;
+}
+}
+
+div{
+    padding: 50px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
